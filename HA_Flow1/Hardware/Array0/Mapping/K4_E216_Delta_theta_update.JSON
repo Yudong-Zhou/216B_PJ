@@ -1,0 +1,234 @@
+{
+    "ProgramName": "K4_E216_Delta_theta_update",
+    "VSConnections": [
+        {
+            "isRouted": true,
+            "sinkVSX": 0,
+            "sinkVSY": 1,
+            "sourceVSX": 0,
+            "sourceVSY": 0
+        }
+    ],
+    "uniqueConfig": [
+        [
+            6
+        ],
+        [
+            0
+        ]
+    ],
+    "vsMappings": [
+        {
+            "RBMapping": {
+                "nodeBind": [
+                    {
+                        "moduleID": 1,
+                        "nodeID": 5
+                    },
+                    {
+                        "moduleID": 2,
+                        "nodeID": 7
+                    },
+                    {
+                        "moduleID": 3,
+                        "nodeID": 8
+                    },
+                    {
+                        "moduleID": 4,
+                        "nodeID": 3
+                    },
+                    {
+                        "moduleID": 5,
+                        "nodeID": 6
+                    },
+                    {
+                        "moduleID": 6,
+                        "nodeID": 3
+                    }
+                ]
+            },
+            "templateMappings": [
+                {
+                    "CMapping": {
+                        "edgeID": [
+                            1,
+                            2,
+                            4,
+                            6,
+                            7
+                        ]
+                    },
+                    "RMapping": {
+                        "signalRoutes": [
+                            {
+                                "edgeID": 1,
+                                "isInterface": true,
+                                "signalID": 4,
+                                "sinkVSIdx": 0
+                            }
+                        ]
+                    }
+                },
+                null,
+                {
+                    "RMapping": {
+                        "signalRoutes": [
+                            {
+                                "edgeID": 1,
+                                "isInterface": true,
+                                "signalID": 4,
+                                "sinkVSIdx": 6
+                            },
+                            {
+                                "edgeID": 2,
+                                "isInterface": false,
+                                "signalID": 4,
+                                "sinkVSIdx": 0
+                            },
+                            {
+                                "edgeID": 1,
+                                "isInterface": false,
+                                "signalID": 4,
+                                "sinkVSIdx": 0
+                            }
+                        ]
+                    }
+                },
+                {
+                    "RMapping": {
+                        "signalRoutes": [
+                            {
+                                "edgeID": 1,
+                                "isInterface": true,
+                                "signalID": 4,
+                                "sinkVSIdx": 0
+                            },
+                            {
+                                "edgeID": 2,
+                                "isInterface": false,
+                                "signalID": 4,
+                                "sinkVSIdx": 0
+                            },
+                            {
+                                "edgeID": 1,
+                                "isInterface": false,
+                                "signalID": 4,
+                                "sinkVSIdx": 0
+                            }
+                        ]
+                    }
+                },
+                {
+                    "RMapping": {
+                        "signalRoutes": [
+                            {
+                                "edgeID": 1,
+                                "isInterface": true,
+                                "signalID": 4,
+                                "sinkVSIdx": 0
+                            },
+                            {
+                                "edgeID": 2,
+                                "isInterface": false,
+                                "signalID": 4,
+                                "sinkVSIdx": 0
+                            },
+                            {
+                                "edgeID": 1,
+                                "isInterface": false,
+                                "signalID": 4,
+                                "sinkVSIdx": 0
+                            }
+                        ]
+                    }
+                },
+                {
+                    "RMapping": {
+                        "signalRoutes": [
+                            {
+                                "edgeID": 1,
+                                "isInterface": true,
+                                "signalID": 4,
+                                "sinkVSIdx": 0
+                            },
+                            {
+                                "edgeID": 2,
+                                "isInterface": false,
+                                "signalID": 4,
+                                "sinkVSIdx": 0
+                            },
+                            {
+                                "edgeID": 1,
+                                "isInterface": false,
+                                "signalID": 4,
+                                "sinkVSIdx": 0
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+            "RBMapping": {
+                "nodeBind": [
+                    {
+                        "moduleID": 2,
+                        "nodeID": 2
+                    },
+                    {
+                        "moduleID": 3,
+                        "nodeID": 4
+                    },
+                    {
+                        "moduleID": 4,
+                        "nodeID": 1
+                    },
+                    {
+                        "moduleID": 5,
+                        "nodeID": 2
+                    }
+                ]
+            },
+            "templateMappings": [
+                {
+                    "CMapping": {
+                        "edgeID": [
+                            2,
+                            4,
+                            5
+                        ]
+                    }
+                },
+                {
+                    "RMapping": {
+                        "signalRoutes": [
+                            {
+                                "edgeID": 2,
+                                "isInterface": true,
+                                "signalID": 4,
+                                "sinkVSIdx": 6
+                            },
+                            {
+                                "edgeID": 3,
+                                "isInterface": false,
+                                "signalID": 4,
+                                "sinkVSIdx": 0
+                            },
+                            {
+                                "edgeID": 1,
+                                "isInterface": false,
+                                "signalID": 4,
+                                "sinkVSIdx": 0
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

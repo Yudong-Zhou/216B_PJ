@@ -1,0 +1,448 @@
+{
+    "amountUsed": 6,
+    "architectureConfiguration": {
+        "logicMux": [
+            {
+                "ID": 1,
+                "dataBitwidth": 32,
+                "instLocation": 0,
+                "instName": "sel",
+                "numInput": 2,
+                "selBitwidth": 1
+            },
+            {
+                "ID": 2,
+                "dataBitwidth": 32,
+                "instLocation": 1,
+                "instName": "sel",
+                "numInput": 2,
+                "selBitwidth": 1
+            },
+            {
+                "ID": 3,
+                "dataBitwidth": 32,
+                "instLocation": 2,
+                "instName": "sel",
+                "numInput": 2,
+                "selBitwidth": 1
+            }
+        ]
+    },
+    "edges": [
+        {
+            "ID": 1,
+            "MuxID": 0,
+            "bufferMuxID": 0,
+            "childID": 6,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "occupiedAmount": 4,
+            "parentID": 1,
+            "parentPortID": 1
+        },
+        {
+            "ID": 2,
+            "MuxID": 2,
+            "bufferMuxID": 0,
+            "childID": 5,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "occupiedAmount": 5,
+            "parentID": 2,
+            "parentPortID": 1
+        },
+        {
+            "ID": 3,
+            "MuxID": 3,
+            "bufferMuxID": 0,
+            "childID": 6,
+            "childPortID": 2,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "occupiedAmount": 1,
+            "parentID": 2,
+            "parentPortID": 1
+        },
+        {
+            "ID": 4,
+            "MuxID": 0,
+            "bufferMuxID": 0,
+            "childID": 5,
+            "childPortID": 2,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "occupiedAmount": 6,
+            "parentID": 3,
+            "parentPortID": 1
+        },
+        {
+            "ID": 5,
+            "MuxID": 1,
+            "bufferMuxID": 0,
+            "childID": 4,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 1,
+                    "latency": 1
+                }
+            ],
+            "occupiedAmount": 3,
+            "parentID": 5,
+            "parentPortID": 1
+        },
+        {
+            "ID": 6,
+            "MuxID": 3,
+            "bufferMuxID": 0,
+            "childID": 6,
+            "childPortID": 2,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 1,
+                    "latency": 1
+                }
+            ],
+            "occupiedAmount": 3,
+            "parentID": 5,
+            "parentPortID": 1
+        },
+        {
+            "ID": 7,
+            "MuxID": 1,
+            "bufferMuxID": 0,
+            "childID": 4,
+            "childPortID": 1,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 1,
+                    "latency": 1
+                }
+            ],
+            "occupiedAmount": 3,
+            "parentID": 6,
+            "parentPortID": 1
+        },
+        {
+            "ID": 8,
+            "MuxID": 2,
+            "bufferMuxID": 0,
+            "childID": 5,
+            "childPortID": 1,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 1,
+                    "latency": 1
+                }
+            ],
+            "occupiedAmount": 1,
+            "parentID": 6,
+            "parentPortID": 1
+        }
+    ],
+    "inInterfaceEdges": [
+        {
+            "ID": 1,
+            "sinkModuleID": 1,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 3,
+            "xDirection": 0,
+            "yDirection": 0,
+            "zDirection": -1
+        },
+        {
+            "ID": 2,
+            "sinkModuleID": 2,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 4,
+            "xDirection": 0,
+            "yDirection": 0,
+            "zDirection": -1
+        }
+    ],
+    "name": "DSE_Solution_L0",
+    "nodes": [
+        {
+            "ID": 1,
+            "functionType": [
+                1
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 1,
+                    "selfLatency": 0
+                },
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 3,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "CADA_IN",
+            "name": "n0_HA_IN",
+            "nodeInstruction": [
+                {
+                    "ID": 1,
+                    "bitWidth": 1,
+                    "instLocation": 0,
+                    "instName": "sel",
+                    "mode": 2
+                }
+            ],
+            "occupiedAmount": 12,
+            "outputPorts": [
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 1
+                }
+            ],
+            "variableParameter": [
+                16
+            ]
+        },
+        {
+            "ID": 2,
+            "functionType": [
+                1
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 1,
+                    "selfLatency": 0
+                },
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 3,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "CADA_IN",
+            "name": "n0_HA_IN",
+            "nodeInstruction": [
+                {
+                    "ID": 1,
+                    "bitWidth": 1,
+                    "instLocation": 0,
+                    "instName": "sel",
+                    "mode": 2
+                }
+            ],
+            "occupiedAmount": 18,
+            "outputPorts": [
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 1
+                }
+            ],
+            "variableParameter": [
+                16
+            ]
+        },
+        {
+            "ID": 3,
+            "functionType": [
+                1
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 1,
+                    "selfLatency": 0
+                },
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 3,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "CADA_IN",
+            "name": "n0_HA_IN",
+            "nodeInstruction": [
+                {
+                    "ID": 1,
+                    "bitWidth": 1,
+                    "instLocation": 0,
+                    "instName": "sel",
+                    "mode": 2
+                }
+            ],
+            "occupiedAmount": 18,
+            "outputPorts": [
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 1
+                }
+            ],
+            "variableParameter": [
+                16
+            ]
+        },
+        {
+            "ID": 4,
+            "functionType": [
+                2
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_OW",
+            "name": "n0_HA_OW",
+            "occupiedAmount": 18,
+            "outputPorts": [
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 2,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 5,
+            "functionType": [
+                4
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                },
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "CADA_ADD",
+            "name": "n0_CADA_ADD",
+            "occupiedAmount": 18,
+            "outputPorts": [
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 1,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 6,
+            "functionType": [
+                5
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                },
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "CADA_Mult",
+            "name": "n0_CADA_Mult",
+            "occupiedAmount": 12,
+            "outputPorts": [
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 1,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16,
+                16,
+                0
+            ]
+        }
+    ],
+    "outInterfaceEdges": [
+        {
+            "ID": 1,
+            "sinkModuleID": 1,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 4,
+            "xDirection": 0,
+            "yDirection": 0,
+            "zDirection": 5
+        }
+    ]
+}

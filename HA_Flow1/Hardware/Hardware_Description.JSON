@@ -1,0 +1,61 @@
+{
+    "VSArray": [
+        {
+            "IOPortSize": 32,
+            "VS": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "giInputInterval": 1,
+            "globalOutputColBlockSize": 2,
+            "globalOutputRowBlockSize": 2,
+            "numCol": 6,
+            "numRow": 6
+        }
+    ],
+    "architecture_VSName": [
+        "VS_Solution"
+    ],
+    "architecture_templateName": [
+        "DSE_Solution_L0",
+        "DSE_Solution_L1",
+        "DSE_Solution_L2",
+        "DSE_Solution_L3",
+        "DSE_Solution_L4",
+        "DSE_Solution_L5"
+    ]
+}

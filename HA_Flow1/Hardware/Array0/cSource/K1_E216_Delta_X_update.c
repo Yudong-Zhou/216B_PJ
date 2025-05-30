@@ -1,0 +1,1 @@
+int MyKernel(){	int output = 13;	int r_div_2[20] = { 3 };	int Wr[20] = { 5 };	int Wl[20] = { 5 };	int x[20] = { 5 };		output = r_div_2[1] * (Wr[1] + Wl[1]) + x[1];	return output;}

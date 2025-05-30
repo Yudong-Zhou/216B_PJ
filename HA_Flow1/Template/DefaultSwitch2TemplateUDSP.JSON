@@ -1,0 +1,1989 @@
+{
+    "architectureConfiguration": {
+        "logicMux": [
+            {
+                "ID": 1,
+                "dataBitwidth": 16,
+                "instLocation": 0,
+                "instName": "sel",
+                "numInput": 8,
+                "selBitwidth": 3
+            },
+            {
+                "ID": 2,
+                "dataBitwidth": 16,
+                "instLocation": 1,
+                "instName": "sel",
+                "numInput": 8,
+                "selBitwidth": 3
+            },
+            {
+                "ID": 3,
+                "dataBitwidth": 16,
+                "instLocation": 2,
+                "instName": "sel",
+                "numInput": 8,
+                "selBitwidth": 3
+            },
+            {
+                "ID": 4,
+                "dataBitwidth": 16,
+                "instLocation": 3,
+                "instName": "sel",
+                "numInput": 8,
+                "selBitwidth": 3
+            },
+            {
+                "ID": 5,
+                "dataBitwidth": 16,
+                "instLocation": 4,
+                "instName": "sel",
+                "numInput": 2,
+                "selBitwidth": 1
+            },
+            {
+                "ID": 6,
+                "dataBitwidth": 16,
+                "instLocation": 5,
+                "instName": "sel",
+                "numInput": 2,
+                "selBitwidth": 1
+            },
+            {
+                "ID": 7,
+                "dataBitwidth": 16,
+                "instLocation": 6,
+                "instName": "sel",
+                "numInput": 2,
+                "selBitwidth": 1
+            },
+            {
+                "ID": 8,
+                "dataBitwidth": 16,
+                "instLocation": 7,
+                "instName": "sel",
+                "numInput": 2,
+                "selBitwidth": 1
+            },
+            {
+                "ID": 9,
+                "dataBitwidth": 16,
+                "instLocation": 8,
+                "instName": "sel",
+                "numInput": 2,
+                "selBitwidth": 1
+            },
+            {
+                "ID": 10,
+                "dataBitwidth": 16,
+                "instLocation": 9,
+                "instName": "sel",
+                "numInput": 2,
+                "selBitwidth": 1
+            },
+            {
+                "ID": 11,
+                "dataBitwidth": 16,
+                "instLocation": 10,
+                "instName": "sel",
+                "numInput": 2,
+                "selBitwidth": 1
+            },
+            {
+                "ID": 12,
+                "dataBitwidth": 16,
+                "instLocation": 11,
+                "instName": "sel",
+                "numInput": 2,
+                "selBitwidth": 1
+            },
+            {
+                "ID": 13,
+                "dataBitwidth": 16,
+                "instLocation": 12,
+                "instName": "sel",
+                "numInput": 2,
+                "selBitwidth": 1
+            },
+            {
+                "ID": 14,
+                "dataBitwidth": 16,
+                "instLocation": 13,
+                "instName": "sel",
+                "numInput": 2,
+                "selBitwidth": 1
+            },
+            {
+                "ID": 15,
+                "dataBitwidth": 16,
+                "instLocation": 14,
+                "instName": "sel",
+                "numInput": 2,
+                "selBitwidth": 1
+            },
+            {
+                "ID": 16,
+                "dataBitwidth": 16,
+                "instLocation": 15,
+                "instName": "sel",
+                "numInput": 2,
+                "selBitwidth": 1
+            }
+        ]
+    },
+    "edges": [
+        {
+            "ID": 1,
+            "MuxID": 1,
+            "bufferMuxID": 0,
+            "childID": 13,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 1,
+            "parentPortID": 1
+        },
+        {
+            "ID": 2,
+            "MuxID": 2,
+            "bufferMuxID": 0,
+            "childID": 14,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 1,
+            "parentPortID": 1
+        },
+        {
+            "ID": 3,
+            "MuxID": 3,
+            "bufferMuxID": 0,
+            "childID": 15,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 2,
+            "parentPortID": 1
+        },
+        {
+            "ID": 4,
+            "MuxID": 4,
+            "bufferMuxID": 0,
+            "childID": 16,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 2,
+            "parentPortID": 1
+        },
+        {
+            "ID": 5,
+            "MuxID": 1,
+            "bufferMuxID": 0,
+            "childID": 13,
+            "childPortID": 1,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 3,
+            "parentPortID": 1
+        },
+        {
+            "ID": 6,
+            "MuxID": 2,
+            "bufferMuxID": 0,
+            "childID": 14,
+            "childPortID": 1,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 3,
+            "parentPortID": 1
+        },
+        {
+            "ID": 7,
+            "MuxID": 3,
+            "bufferMuxID": 0,
+            "childID": 15,
+            "childPortID": 1,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 4,
+            "parentPortID": 1
+        },
+        {
+            "ID": 8,
+            "MuxID": 4,
+            "bufferMuxID": 0,
+            "childID": 16,
+            "childPortID": 1,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 4,
+            "parentPortID": 1
+        },
+        {
+            "ID": 9,
+            "MuxID": 1,
+            "bufferMuxID": 0,
+            "childID": 13,
+            "childPortID": 1,
+            "configurationBinary": 2,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 5,
+            "parentPortID": 1
+        },
+        {
+            "ID": 10,
+            "MuxID": 2,
+            "bufferMuxID": 0,
+            "childID": 14,
+            "childPortID": 1,
+            "configurationBinary": 2,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 5,
+            "parentPortID": 1
+        },
+        {
+            "ID": 11,
+            "MuxID": 3,
+            "bufferMuxID": 0,
+            "childID": 15,
+            "childPortID": 1,
+            "configurationBinary": 2,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 6,
+            "parentPortID": 1
+        },
+        {
+            "ID": 12,
+            "MuxID": 4,
+            "bufferMuxID": 0,
+            "childID": 16,
+            "childPortID": 1,
+            "configurationBinary": 2,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 6,
+            "parentPortID": 1
+        },
+        {
+            "ID": 13,
+            "MuxID": 1,
+            "bufferMuxID": 0,
+            "childID": 13,
+            "childPortID": 1,
+            "configurationBinary": 3,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 7,
+            "parentPortID": 1
+        },
+        {
+            "ID": 14,
+            "MuxID": 2,
+            "bufferMuxID": 0,
+            "childID": 14,
+            "childPortID": 1,
+            "configurationBinary": 3,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 7,
+            "parentPortID": 1
+        },
+        {
+            "ID": 15,
+            "MuxID": 3,
+            "bufferMuxID": 0,
+            "childID": 15,
+            "childPortID": 1,
+            "configurationBinary": 3,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 8,
+            "parentPortID": 1
+        },
+        {
+            "ID": 16,
+            "MuxID": 4,
+            "bufferMuxID": 0,
+            "childID": 16,
+            "childPortID": 1,
+            "configurationBinary": 3,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 8,
+            "parentPortID": 1
+        },
+        {
+            "ID": 17,
+            "MuxID": 1,
+            "bufferMuxID": 0,
+            "childID": 13,
+            "childPortID": 1,
+            "configurationBinary": 4,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 9,
+            "parentPortID": 1
+        },
+        {
+            "ID": 18,
+            "MuxID": 2,
+            "bufferMuxID": 0,
+            "childID": 14,
+            "childPortID": 1,
+            "configurationBinary": 4,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 9,
+            "parentPortID": 1
+        },
+        {
+            "ID": 19,
+            "MuxID": 3,
+            "bufferMuxID": 0,
+            "childID": 15,
+            "childPortID": 1,
+            "configurationBinary": 4,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 10,
+            "parentPortID": 1
+        },
+        {
+            "ID": 20,
+            "MuxID": 4,
+            "bufferMuxID": 0,
+            "childID": 16,
+            "childPortID": 1,
+            "configurationBinary": 4,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 10,
+            "parentPortID": 1
+        },
+        {
+            "ID": 21,
+            "MuxID": 1,
+            "bufferMuxID": 0,
+            "childID": 13,
+            "childPortID": 1,
+            "configurationBinary": 5,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 11,
+            "parentPortID": 1
+        },
+        {
+            "ID": 22,
+            "MuxID": 2,
+            "bufferMuxID": 0,
+            "childID": 14,
+            "childPortID": 1,
+            "configurationBinary": 5,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 11,
+            "parentPortID": 1
+        },
+        {
+            "ID": 23,
+            "MuxID": 3,
+            "bufferMuxID": 0,
+            "childID": 15,
+            "childPortID": 1,
+            "configurationBinary": 5,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 12,
+            "parentPortID": 1
+        },
+        {
+            "ID": 24,
+            "MuxID": 4,
+            "bufferMuxID": 0,
+            "childID": 16,
+            "childPortID": 1,
+            "configurationBinary": 5,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 12,
+            "parentPortID": 1
+        },
+        {
+            "ID": 25,
+            "MuxID": 5,
+            "bufferMuxID": 0,
+            "childID": 17,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 13,
+            "parentPortID": 1
+        },
+        {
+            "ID": 26,
+            "MuxID": 5,
+            "bufferMuxID": 0,
+            "childID": 17,
+            "childPortID": 1,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 14,
+            "parentPortID": 1
+        },
+        {
+            "ID": 27,
+            "MuxID": 11,
+            "bufferMuxID": 0,
+            "childID": 18,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 15,
+            "parentPortID": 1
+        },
+        {
+            "ID": 28,
+            "MuxID": 11,
+            "bufferMuxID": 0,
+            "childID": 18,
+            "childPortID": 1,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 16,
+            "parentPortID": 1
+        },
+        {
+            "ID": 29,
+            "MuxID": 6,
+            "bufferMuxID": 0,
+            "childID": 19,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 13,
+            "parentPortID": 1
+        },
+        {
+            "ID": 30,
+            "MuxID": 6,
+            "bufferMuxID": 0,
+            "childID": 19,
+            "childPortID": 1,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 14,
+            "parentPortID": 1
+        },
+        {
+            "ID": 31,
+            "MuxID": 12,
+            "bufferMuxID": 0,
+            "childID": 20,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 15,
+            "parentPortID": 1
+        },
+        {
+            "ID": 32,
+            "MuxID": 12,
+            "bufferMuxID": 0,
+            "childID": 20,
+            "childPortID": 1,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 16,
+            "parentPortID": 1
+        },
+        {
+            "ID": 33,
+            "MuxID": 7,
+            "bufferMuxID": 0,
+            "childID": 21,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 13,
+            "parentPortID": 1
+        },
+        {
+            "ID": 34,
+            "MuxID": 7,
+            "bufferMuxID": 0,
+            "childID": 21,
+            "childPortID": 1,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 14,
+            "parentPortID": 1
+        },
+        {
+            "ID": 35,
+            "MuxID": 13,
+            "bufferMuxID": 0,
+            "childID": 22,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 15,
+            "parentPortID": 1
+        },
+        {
+            "ID": 36,
+            "MuxID": 13,
+            "bufferMuxID": 0,
+            "childID": 22,
+            "childPortID": 1,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 16,
+            "parentPortID": 1
+        },
+        {
+            "ID": 37,
+            "MuxID": 8,
+            "bufferMuxID": 0,
+            "childID": 23,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 13,
+            "parentPortID": 1
+        },
+        {
+            "ID": 38,
+            "MuxID": 8,
+            "bufferMuxID": 0,
+            "childID": 23,
+            "childPortID": 1,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 14,
+            "parentPortID": 1
+        },
+        {
+            "ID": 39,
+            "MuxID": 14,
+            "bufferMuxID": 0,
+            "childID": 24,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 15,
+            "parentPortID": 1
+        },
+        {
+            "ID": 40,
+            "MuxID": 14,
+            "bufferMuxID": 0,
+            "childID": 24,
+            "childPortID": 1,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 16,
+            "parentPortID": 1
+        },
+        {
+            "ID": 41,
+            "MuxID": 9,
+            "bufferMuxID": 0,
+            "childID": 25,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 13,
+            "parentPortID": 1
+        },
+        {
+            "ID": 42,
+            "MuxID": 9,
+            "bufferMuxID": 0,
+            "childID": 25,
+            "childPortID": 1,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 14,
+            "parentPortID": 1
+        },
+        {
+            "ID": 43,
+            "MuxID": 15,
+            "bufferMuxID": 0,
+            "childID": 26,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 15,
+            "parentPortID": 1
+        },
+        {
+            "ID": 44,
+            "MuxID": 15,
+            "bufferMuxID": 0,
+            "childID": 26,
+            "childPortID": 1,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 16,
+            "parentPortID": 1
+        },
+        {
+            "ID": 45,
+            "MuxID": 10,
+            "bufferMuxID": 0,
+            "childID": 27,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 13,
+            "parentPortID": 1
+        },
+        {
+            "ID": 46,
+            "MuxID": 10,
+            "bufferMuxID": 0,
+            "childID": 27,
+            "childPortID": 1,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 14,
+            "parentPortID": 1
+        },
+        {
+            "ID": 47,
+            "MuxID": 16,
+            "bufferMuxID": 0,
+            "childID": 28,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 15,
+            "parentPortID": 1
+        },
+        {
+            "ID": 48,
+            "MuxID": 16,
+            "bufferMuxID": 0,
+            "childID": 28,
+            "childPortID": 1,
+            "configurationBinary": 1,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "parentID": 16,
+            "parentPortID": 1
+        }
+    ],
+    "inInterfaceEdges": [
+        {
+            "ID": 1,
+            "sinkModuleID": 11,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 17,
+            "xDirection": 1,
+            "yDirection": -1,
+            "zDirection": 0
+        },
+        {
+            "ID": 2,
+            "sinkModuleID": 12,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 18,
+            "xDirection": 1,
+            "yDirection": -1,
+            "zDirection": 0
+        },
+        {
+            "ID": 3,
+            "sinkModuleID": 7,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 19,
+            "xDirection": 1,
+            "yDirection": 1,
+            "zDirection": 0
+        },
+        {
+            "ID": 4,
+            "sinkModuleID": 8,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 20,
+            "xDirection": 1,
+            "yDirection": 1,
+            "zDirection": 0
+        },
+        {
+            "ID": 5,
+            "sinkModuleID": 5,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 25,
+            "xDirection": 0,
+            "yDirection": 0,
+            "zDirection": -1
+        },
+        {
+            "ID": 6,
+            "sinkModuleID": 6,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 26,
+            "xDirection": 0,
+            "yDirection": 0,
+            "zDirection": -1
+        },
+        {
+            "ID": 7,
+            "sinkModuleID": 3,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 23,
+            "xDirection": -1,
+            "yDirection": -1,
+            "zDirection": 0
+        },
+        {
+            "ID": 8,
+            "sinkModuleID": 4,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 24,
+            "xDirection": -1,
+            "yDirection": -1,
+            "zDirection": 0
+        },
+        {
+            "ID": 9,
+            "sinkModuleID": 9,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 27,
+            "xDirection": 0,
+            "yDirection": 0,
+            "zDirection": -1
+        },
+        {
+            "ID": 10,
+            "sinkModuleID": 10,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 28,
+            "xDirection": 0,
+            "yDirection": 0,
+            "zDirection": -1
+        },
+        {
+            "ID": 11,
+            "sinkModuleID": 1,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 27,
+            "xDirection": -1,
+            "yDirection": 1,
+            "zDirection": 0
+        },
+        {
+            "ID": 12,
+            "sinkModuleID": 2,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 28,
+            "xDirection": -1,
+            "yDirection": 1,
+            "zDirection": 0
+        }
+    ],
+    "name": "DefaultSwitch2TemplateUDSP",
+    "nodes": [
+        {
+            "ID": 1,
+            "functionType": [
+                1
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 1,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_INW",
+            "name": "In_TopRight_1",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 2,
+            "functionType": [
+                1
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 1,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_INW",
+            "name": "In_TopRight_2",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 3,
+            "functionType": [
+                1
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 1,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_INW",
+            "name": "In_BottomRight_1",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 4,
+            "functionType": [
+                1
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 1,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_INW",
+            "name": "In_BottomRight_2",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 5,
+            "functionType": [
+                1
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 1,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_INW",
+            "name": "In_Up_1",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 6,
+            "functionType": [
+                1
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 1,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_INW",
+            "name": "In_Up_2",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 7,
+            "functionType": [
+                1
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 1,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_INW",
+            "name": "In_TopLeft_1",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 8,
+            "functionType": [
+                1
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 1,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_INW",
+            "name": "In_TopLeft_2",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 9,
+            "functionType": [
+                1
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 1,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_INW",
+            "name": "In_Up_3",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 10,
+            "functionType": [
+                1
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 1,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_INW",
+            "name": "In_Up_4",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 11,
+            "functionType": [
+                1
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 1,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_INW",
+            "name": "In_BottomLeft_1",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 12,
+            "functionType": [
+                1
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 1,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_INW",
+            "name": "In_BottomLeft_2",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 13,
+            "functionType": [
+                3
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_TW",
+            "name": "Token0",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 14,
+            "functionType": [
+                3
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_TW",
+            "name": "Token1",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 15,
+            "functionType": [
+                3
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_TW",
+            "name": "Token2",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 16,
+            "functionType": [
+                3
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_TW",
+            "name": "Token3",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 17,
+            "functionType": [
+                2
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_OW",
+            "name": "Out_TopRight_1",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 2,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 18,
+            "functionType": [
+                2
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_OW",
+            "name": "Out_TopRight_2",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 2,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 19,
+            "functionType": [
+                2
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_OW",
+            "name": "Out_BottomRight_1",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 2,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 20,
+            "functionType": [
+                2
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_OW",
+            "name": "Out_BottomRight_2",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 2,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 21,
+            "functionType": [
+                2
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_OW",
+            "name": "Out_Down_1",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 2,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 22,
+            "functionType": [
+                2
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_OW",
+            "name": "Out_Down_2",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 2,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 23,
+            "functionType": [
+                2
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_OW",
+            "name": "Out_TopLeft_1",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 2,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 24,
+            "functionType": [
+                2
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_OW",
+            "name": "Out_TopLeft_2",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 2,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 25,
+            "functionType": [
+                2
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_OW",
+            "name": "Out_Down_3",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 2,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 26,
+            "functionType": [
+                2
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_OW",
+            "name": "Out_Down_4",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 2,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 27,
+            "functionType": [
+                2
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_OW",
+            "name": "Out_BottomLeft_1",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 2,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        },
+        {
+            "ID": 28,
+            "functionType": [
+                2
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_OW",
+            "name": "Out_BottomLeft_2",
+            "outputPorts": [
+                {
+                    "bitWidth": 16,
+                    "maxPipelineLatency": 0,
+                    "mode": 2,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                16,
+                16
+            ]
+        }
+    ],
+    "num_lat_mux": 0,
+    "num_logic_mux": 16,
+    "outInterfaceEdges": [
+        {
+            "ID": 1,
+            "sinkModuleID": 11,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 17,
+            "xDirection": 1,
+            "yDirection": -1,
+            "zDirection": 0
+        },
+        {
+            "ID": 2,
+            "sinkModuleID": 12,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 18,
+            "xDirection": 1,
+            "yDirection": -1,
+            "zDirection": 0
+        },
+        {
+            "ID": 3,
+            "sinkModuleID": 7,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 19,
+            "xDirection": 1,
+            "yDirection": 1,
+            "zDirection": 0
+        },
+        {
+            "ID": 4,
+            "sinkModuleID": 8,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 20,
+            "xDirection": 1,
+            "yDirection": 1,
+            "zDirection": 0
+        },
+        {
+            "ID": 5,
+            "sinkModuleID": 17,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 21,
+            "xDirection": 0,
+            "yDirection": 0,
+            "zDirection": -1
+        },
+        {
+            "ID": 6,
+            "sinkModuleID": 18,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 22,
+            "xDirection": 0,
+            "yDirection": 0,
+            "zDirection": -1
+        },
+        {
+            "ID": 7,
+            "sinkModuleID": 3,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 23,
+            "xDirection": -1,
+            "yDirection": -1,
+            "zDirection": 0
+        },
+        {
+            "ID": 8,
+            "sinkModuleID": 4,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 24,
+            "xDirection": -1,
+            "yDirection": -1,
+            "zDirection": 0
+        },
+        {
+            "ID": 9,
+            "sinkModuleID": 19,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 25,
+            "xDirection": 0,
+            "yDirection": 0,
+            "zDirection": -1
+        },
+        {
+            "ID": 10,
+            "sinkModuleID": 20,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 26,
+            "xDirection": 0,
+            "yDirection": 0,
+            "zDirection": -1
+        },
+        {
+            "ID": 11,
+            "sinkModuleID": 1,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 27,
+            "xDirection": -1,
+            "yDirection": 1,
+            "zDirection": 0
+        },
+        {
+            "ID": 12,
+            "sinkModuleID": 2,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 28,
+            "xDirection": -1,
+            "yDirection": 1,
+            "zDirection": 0
+        }
+    ]
+}

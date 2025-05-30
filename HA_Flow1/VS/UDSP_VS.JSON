@@ -1,0 +1,9 @@
+{
+    "name": "UDSP_VS",
+    "template_Name": [
+        "DefaultCoreTemplateUDSP",
+        "DefaultSwitch1TemplateUDSP",
+        "DefaultSwitch2TemplateUDSP",
+        "DefaultSwitch3TemplateUDSP"
+    ]
+}

@@ -1,0 +1,185 @@
+{
+    "arrayGlobalControlBitwidth": 126,
+    "arrayGlobalInputControlBitwidth": 108,
+    "clkCmd": 1,
+    "col": 6,
+    "configCmd": 3,
+    "configurationBitstream": [
+        [
+            0,
+            0,
+            0,
+            2
+        ],
+        [
+            0,
+            0,
+            0,
+            5
+        ]
+    ],
+    "configurationLatency": 2,
+    "controlBitstream": [
+        [
+            0,
+            0,
+            0,
+            0,
+            32,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            8,
+            0,
+            0,
+            0,
+            0
+        ]
+    ],
+    "controlCmd": 4,
+    "dataCmd": 2,
+    "dataOutCmd": 5,
+    "defaultWordSize": 32,
+    "gDataControlBitstream": [
+        0,
+        0,
+        32,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        24,
+        0,
+        7
+    ],
+    "gcontrolCmd": 6,
+    "globalOutputColBlockSize": 2,
+    "globalOutputRowBlockSize": 2,
+    "inputID": [
+        4,
+        6,
+        7,
+        9,
+        10
+    ],
+    "inputLatency": [
+        4,
+        3,
+        1,
+        0,
+        0
+    ],
+    "inputModuleID": [
+        3,
+        2,
+        1,
+        2,
+        3
+    ],
+    "inputPerVS": 3,
+    "inputVIdxX": [
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "inputVIdxY": [
+        1,
+        1,
+        0,
+        0,
+        0
+    ],
+    "kernelName": "K3_E216_Delta_Y_update",
+    "latControlCmd": 7,
+    "latencyBitstream": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        70,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+    ],
+    "localInputBitwidth": 3456,
+    "maxLatency": 6,
+    "outputVIdxX": [
+        0
+    ],
+    "outputVIdxY": [
+        1
+    ],
+    "pathLatency": 6,
+    "row": 6,
+    "uConfigBS": [
+        [
+            false,
+            true,
+            false
+        ],
+        [
+            true,
+            false,
+            true
+        ]
+    ],
+    "uConfigVSIdx": [
+        [
+            6
+        ],
+        [
+            0
+        ]
+    ],
+    "xSpan": 1,
+    "ySpan": 2
+}

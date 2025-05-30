@@ -1,0 +1,180 @@
+{
+    "edges": [
+        {
+            "childID": 6,
+            "childPortID": 1,
+            "parentID": 7,
+            "parentPortID": 1
+        },
+        {
+            "childID": 6,
+            "childPortID": 2,
+            "parentID": 8,
+            "parentPortID": 1
+        },
+        {
+            "childID": 3,
+            "childPortID": 1,
+            "parentID": 5,
+            "parentPortID": 1
+        },
+        {
+            "childID": 3,
+            "childPortID": 2,
+            "parentID": 6,
+            "parentPortID": 1
+        },
+        {
+            "childID": 2,
+            "childPortID": 1,
+            "parentID": 3,
+            "parentPortID": 1
+        },
+        {
+            "childID": 2,
+            "childPortID": 2,
+            "parentID": 4,
+            "parentPortID": 1
+        },
+        {
+            "childID": 1,
+            "childPortID": 1,
+            "parentID": 2,
+            "parentPortID": 1
+        }
+    ],
+    "nodes": [
+        {
+            "ID": 1,
+            "bitWidth": 32,
+            "inputEdgeID": [
+                7
+            ],
+            "inputID": [
+                2
+            ],
+            "name": "",
+            "nodeType": 2,
+            "outputEdgeID": [
+                7
+            ],
+            "outputID": [
+                1
+            ],
+            "tagValue": 0,
+            "x": 5,
+            "y": 5
+        },
+        {
+            "ID": 2,
+            "bitWidth": 32,
+            "inputEdgeID": [
+                5,
+                6
+            ],
+            "inputID": [
+                3,
+                4
+            ],
+            "name": "",
+            "nodeType": 4,
+            "outputEdgeID": [
+                5,
+                6
+            ],
+            "outputID": [
+                2,
+                2
+            ],
+            "tagValue": 0,
+            "x": 5,
+            "y": 4
+        },
+        {
+            "ID": 3,
+            "bitWidth": 32,
+            "inputEdgeID": [
+                3,
+                4
+            ],
+            "inputID": [
+                5,
+                6
+            ],
+            "name": "",
+            "nodeType": 5,
+            "outputEdgeID": [
+                3,
+                4
+            ],
+            "outputID": [
+                3,
+                3
+            ],
+            "tagValue": 0,
+            "x": 1,
+            "y": 3
+        },
+        {
+            "ID": 4,
+            "bitWidth": 32,
+            "name": "",
+            "nodeType": 1,
+            "tagValue": 4,
+            "x": 6,
+            "y": 3
+        },
+        {
+            "ID": 5,
+            "bitWidth": 32,
+            "name": "",
+            "nodeType": 1,
+            "tagValue": 1,
+            "x": 0,
+            "y": 2
+        },
+        {
+            "ID": 6,
+            "bitWidth": 32,
+            "inputEdgeID": [
+                1,
+                2
+            ],
+            "inputID": [
+                7,
+                8
+            ],
+            "name": "",
+            "nodeType": 4,
+            "outputEdgeID": [
+                1,
+                2
+            ],
+            "outputID": [
+                6,
+                6
+            ],
+            "tagValue": 0,
+            "x": 3,
+            "y": 2
+        },
+        {
+            "ID": 7,
+            "bitWidth": 32,
+            "name": "",
+            "nodeType": 1,
+            "tagValue": 2,
+            "x": 2,
+            "y": 1
+        },
+        {
+            "ID": 8,
+            "bitWidth": 32,
+            "name": "",
+            "nodeType": 1,
+            "tagValue": 3,
+            "x": 4,
+            "y": 1
+        }
+    ]
+}

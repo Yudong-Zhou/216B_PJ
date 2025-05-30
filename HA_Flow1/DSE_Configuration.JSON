@@ -1,0 +1,1 @@
+{"numCol":6,"numRow":6,"numLayer":6,"coreSizeFactor":1.0,"DSEIOPortSize":32,"preferredPrimitive":{"2":"HA_OW","4":"CADA_ADD","5":"CADA_Mult","1":"HA_IN"},"initialPrimitiveSize":{"2":2,"4":1,"5":1,"1":4}}

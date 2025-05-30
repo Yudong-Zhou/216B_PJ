@@ -1,0 +1,153 @@
+{
+    "amountUsed": 6,
+    "edges": [
+        {
+            "ID": 1,
+            "MuxID": 0,
+            "bufferMuxID": 0,
+            "childID": 2,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "occupiedAmount": 6,
+            "parentID": 1,
+            "parentPortID": 1
+        },
+        {
+            "ID": 2,
+            "MuxID": 0,
+            "bufferMuxID": 0,
+            "childID": 3,
+            "childPortID": 1,
+            "configurationBinary": 0,
+            "isActive": true,
+            "latencyOption": [
+                {
+                    "configurationBinary": 0,
+                    "latency": 0
+                }
+            ],
+            "occupiedAmount": 6,
+            "parentID": 2,
+            "parentPortID": 1
+        }
+    ],
+    "inInterfaceEdges": [
+        {
+            "ID": 1,
+            "sinkModuleID": 1,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 3,
+            "xDirection": 0,
+            "yDirection": 0,
+            "zDirection": -1
+        }
+    ],
+    "name": "DSE_Solution_L2",
+    "nodes": [
+        {
+            "ID": 1,
+            "functionType": [
+                1
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 1,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_INW",
+            "name": "t5_In0",
+            "occupiedAmount": 9,
+            "outputPorts": [
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                32
+            ]
+        },
+        {
+            "ID": 2,
+            "functionType": [
+                7
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_TW",
+            "name": "Token0",
+            "occupiedAmount": 9,
+            "outputPorts": [
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                32
+            ]
+        },
+        {
+            "ID": 3,
+            "functionType": [
+                2
+            ],
+            "inputPorts": [
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 4,
+                    "selfLatency": 0
+                }
+            ],
+            "isActive": true,
+            "moduleName": "HA_OW",
+            "name": "t3_O0",
+            "occupiedAmount": 9,
+            "outputPorts": [
+                {
+                    "bitWidth": 32,
+                    "maxPipelineLatency": 0,
+                    "mode": 2,
+                    "selfLatency": 0
+                }
+            ],
+            "variableParameter": [
+                32
+            ]
+        }
+    ],
+    "outInterfaceEdges": [
+        {
+            "ID": 1,
+            "sinkModuleID": 1,
+            "sinkModulePortID": 1,
+            "sourceModuleID": 3,
+            "xDirection": 0,
+            "yDirection": 1,
+            "zDirection": -1
+        }
+    ]
+}
